@@ -1,0 +1,14 @@
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p {
+    width: 50%;
+}
+
+img {
+    width: 250px;
+    height: auto;
+}
