@@ -1,14 +1,16 @@
 .contenedor {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: flex;              
+    align-items: center;        
+    gap: 20px;                  
+    width: 80%;
+    margin: 50px auto;
 }
 
-p {
-    width: 50%;
-}
-
-img {
+.contenedor img {
     width: 250px;
-    height: auto;
+    border-radius: 10px;
+}
+
+.texto {
+    font-size: 18px;
 }
