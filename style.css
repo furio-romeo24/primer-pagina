@@ -4,45 +4,23 @@ body {
     background-color: #f2f2f2;
 }
 
-h1 {
-    margin-top: 30px;
+.rectangulo_blanco{
+    width: 1000px;
+  height: 500px;
+  background-color: white;
+  border: 1px solid black;
+  position: relative;
 }
-
-.lista {
-    list-style: none;
-    padding: 0;
+.rectangulo_azul{
+    width: 333px;
+    height: 500px;
+    background-color: blue;
+    position: absolute;
 }
-
-.lista li {
-    margin: 15px 0;
-}
-
-.lista a {
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
-    background-color: #0077cc;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
-.lista a:hover {
-    background-color: #005fa3;
-}
-
-img {
-    width: 300px;
-    border: 2px solid black;
-}
-
-.volver {
-    text-decoration: none;
-    color: white;
-    background-color: #333;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
-.volver:hover {
-    background-color: #000;
+.rectangulo_rojo{
+    width: 333px;
+    height: 500px;
+    background-color: red;
+    position: absolute;
+    left: 666px;
 }
